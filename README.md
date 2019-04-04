@@ -5,7 +5,8 @@
 ## Samenvatting
 
 Dit is een verzameling van alle bevindingen en informatie over de [CMD Amsterdam website](cmd-amsterdam.nl).  
-Dit is een Wordpress website waar een aantal dingen aan verbeterd kunnen worden.
+Dit is een Wordpress website waar een aantal dingen aan verbeterd kunnen worden.  
+Hier gebruik ik mijn kennis voor en alles wat ik heb geleerd in de afgelopen weken bij Browser Technologies en Performance Matters.
 
 ## Inhoud
 
@@ -17,12 +18,13 @@ Dit is een Wordpress website waar een aantal dingen aan verbeterd kunnen worden.
 
 ## 1. Installeren
 
-Je kan deze repo forken, downloaden of clonen. Mijn advies is git te gebruiken in je favoritere cli en:  
+Je kan deze repo forken, downloaden of clonen.  
+Mijn advies is git te gebruiken in je favoritere cli en:  
 `git clone https://github.com/DanielvandeVelde/web-app-from-scratch-18-19.git`  
 in deze cli te plakken om de hele repository binnen te halen.  
-Ga vervolgens in de map met `cd web-app-from-scratch-18-19`
-Vervolgens kan je alle benodigdheden om de server te draaien installeren met `npm install`.  
-En de server starten met `node index.js`.
+Ga vervolgens in de map met `cd web-app-from-scratch-18-19`.  
+Nu kan je alle benodigdheden om de server te draaien installeren met `npm install`.  
+En de server starten met `node index.js`.  
 Vervolgens staat deze live op je localhost
 
 ## 2. Gebruik
@@ -33,11 +35,15 @@ Er zijn verschillende routes die allemaal iets demonstreren
 
 Als eerste wordt de oude variant van de website geserveerd die hier op deze GitHub staat.  
 Vervolgens doet deze een vraag aan de api voor een nieuwe variant schrijft deze vervolgens weg naar het index.html bestand om de volgende keer als er een aanvraag word gedaan op te leveren.
-Dit is een van de API aangevraagd en vervolgens gestripte variant van [het samenwerken onderdeel van de website](https://www.cmd-amsterdam.nl/samenwerken/)
+Dit is een van de API aangevraagd en vervolgens gestripte variant van [het samenwerken onderdeel van de website](https://www.cmd-amsterdam.nl/samenwerken/).
 
 ### /battery
 
-Geeft een statische html pagina terug. Dit is de [battery](https://www.cmd-amsterdam.nl/battery/) pagina van cmd-amsterdam. Hier heb ik echter de html van de
+Geeft een statische html pagina terug.  
+Dit is mijn verbeterde variant van de [battery](https://www.cmd-amsterdam.nl/battery/) pagina van cmd-amsterdam.  
+Hier heb ik echter de html van de website zelf opgebouwd.  
+Deze route is voornamelijk gericht op accessibility en gedeeltelijk op performance.  
+Maar daar valt meer over te lezen onder het volgende kopje oplossingen.
 
 ## 3. Oplossingen
 
@@ -47,6 +53,9 @@ Na de eerste 'audit' te doen via Google Chrome viel er verschillende zaken op.
 De audit in kwestie:  
 <kbd>![Audit1](https://github.com/DanielvandeVelde/project-2-1819/blob/master/github/1.png "Audit 1")</kbd>
 <kbd>![Audit2](https://github.com/DanielvandeVelde/project-2-1819/blob/master/github/2.png "Audit 2")</kbd>
+
+Dat is dus een heleboel om uit te kiezen en te behandelen.  
+Ik pak de grootste en voor mij de belangrijkste aan.
 
 ### 1. Text compressie
 
