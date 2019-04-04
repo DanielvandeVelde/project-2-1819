@@ -1,0 +1,23 @@
+{
+  "name": "project-2-1819",
+  "version": "1.0.0",
+  "description": "## Aanbevelingen voor een robuste, toegankelijke en snelle web toepassing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielvandeVelde/project-2-1819.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielvandeVelde/project-2-1819/issues"
+  },
+  "homepage": "https://github.com/DanielvandeVelde/project-2-1819#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.16.4"
+  }
+}
