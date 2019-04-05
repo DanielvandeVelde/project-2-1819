@@ -8,6 +8,15 @@ Dit is een verzameling van alle bevindingen en informatie over de [CMD Amsterdam
 Dit is een Wordpress website waar een aantal dingen aan verbeterd kunnen worden.  
 Hier gebruik ik mijn kennis voor en alles wat ik heb geleerd in de afgelopen weken bij Browser Technologies en Performance Matters.
 
+## Demo
+
+Er is een live demo te vinden van de twee [routes](#2-Gebruik) op:
+
+- [Battery](https://danielvandevelde.github.io/project-2-1819/public/battery.html)
+- [Samenwerken](https://danielvandevelde.github.io/project-2-1819/public/battery.html)
+
+Informatie over deze routes en waarom deze geweldig zijn is in de rest van de readme te vinden.
+
 ## Inhoud
 
 1. [Installeren](#1-Installeren)
@@ -29,7 +38,7 @@ Vervolgens staat deze live op je localhost.
 
 ## 2. Gebruik
 
-Er zijn verschillende routes die allemaal iets demonstreren
+Er zijn verschillende routes die allemaal iets demonstreren:
 
 ### /samenwerken
 
