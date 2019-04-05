@@ -355,11 +355,6 @@ strong {
   text-transform: uppercase;
 }
 
-#third p a {
-  color: black;
-  text-decoration: none;
-}
-
 #third legend {
   visibility: hidden;
 }
@@ -367,6 +362,10 @@ strong {
 #third fieldset {
   display: flex;
   flex-direction: column;
+}
+
+#third p a {
+  margin: 0 0.5rem;
 }
 
 #third input {

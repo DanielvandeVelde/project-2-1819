@@ -25,7 +25,7 @@ in deze cli te plakken om de hele repository binnen te halen.
 Ga vervolgens in de map met `cd web-app-from-scratch-18-19`.  
 Nu kan je alle benodigdheden om de server te draaien installeren met `npm install`.  
 En de server starten met `node index.js`.  
-Vervolgens staat deze live op je localhost
+Vervolgens staat deze live op je localhost.
 
 ## 2. Gebruik
 
@@ -55,7 +55,7 @@ De audit in kwestie:
 <kbd>![Audit2](https://github.com/DanielvandeVelde/project-2-1819/blob/master/github/2.png "Audit 2")</kbd>
 
 Dat is dus een heleboel om uit te kiezen en te behandelen.  
-Ik pak de grootste en voor mij de belangrijkste aan.
+Ik pak de grootste en voor mij de belangrijkste punten aan.
 
 ### 1. Text compressie
 
@@ -92,7 +92,7 @@ Maar dat is misschien nog iets waar ik een correcte oplossing voor moet verzinne
 
 Bepaalde afbeeldingen zijn meer dan een halve MB groot.
 Met meer dan 5 afbeeldingen per pagina kom je dan snel op gigantische laadtijden. die makkelijk voorkomen kunnen worden.
-Zo heb ik een aantal afbeeldingen in de accessibility demo al laten zien in een kleiner formaat. Een afbeelding van 1.29mb naar 240kb verkleind en sdsvg bestanden die gelijk met de html meegestuurd worden om de laadtijd te verkleinen.
+Zo heb ik een aantal afbeeldingen in de accessibility demo al laten zien in een kleiner formaat. Een afbeelding van 1.29mb naar 240kb verkleind en svg bestanden die gelijk met de html meegestuurd worden om de laadtijd te verkleinen.
 
 Het lazy-loading van images is overigens ook een goed idee. Op deze manier laden afbeeldingen pas wanneer deze het scherm bereiken. Een WordPress plug-in daarvoor is bijvoorbeeld [Hier](https://wordpress.org/plugins/a3-lazy-load/) te vinden.
 In mijn demo heb ik helaas niet genoeg afbeeldingen om dit correct te laten zien.
@@ -106,7 +106,8 @@ Ten eerste heeft de website een overvloed aan `<div> en <span>`-elementen. Niets
 In de BATTERY demo-pagina show ik de website met het correcte gebruik van deze HTML-elementen.
 
 Dit zorgt er ook voor dat elementen zich gaan gedragen zoals ze horen. De labels in het formulier gaan nu correct naar de invulvelden toe. Het heeft zelfs een legenda die voor een screenreader leest waar het formulier over gaat.  
-Het e-mail invulveld eist ook een email omdat er nu een type=email op staat. Het telefoonnummer kan nu ook direct gebeld worden als je er op klikt door een `tel: href`.
+Het e-mail invulveld eist ook een email omdat er nu een type=email op staat. Het telefoonnummer kan nu ook direct gebeld worden als je er op klikt door een `tel: href`.  
+Er staan de juiste `<meta>` tags in voor de taal
 
 Alle afbeeldingen die alt-tags nodig hadden hebben deze gekregen. Dit helpt enorm voor de screenreaders en als placeholder tekst in het geval dat de website de afbeeldingen niet laad.
 
@@ -141,7 +142,7 @@ Of natuurlijk alles opsplitsen, zelfde voor de kritieke css.
 
 ## 5. Conclusie
 
-Er zijn een boel dingen die ik kon verbeteren en ook heb verbeterd en heb uitgelegd hoe deze verbeterd kunnen worden. Waaronder de compressie van de bestanden op de website. Gzip maakt een gigantisch groot verschil.  
+Er zijn een aantal dingen die ik kon verbeteren en ook heb verbeterd en heb uitgelegd hoe deze verbeterd kunnen worden. Waaronder de compressie van de bestanden op de website. Gzip maakt een gigantisch groot verschil.  
 Het statisch aanleveren van de opgeschoonde html maakte ook een goed verschil in de performance. Ik kon er echter niet achter komen hoe ik de aanvraag uit de api kon veranderen met de juiste semantische html.  
 Het kleiner maken van de afbeeldingen en/of deze vervangen door svg's werkte ook goed voor de performance van de website. Door alt-tags toe te voegen werd de accessibility hiervan juist beter.  
 De semantische html variant toont aan dat er niet veel html of css nodig is om een uitstekende website neer te zetten met dezelfde functionaliteit.  
